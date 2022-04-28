@@ -1,0 +1,29 @@
+@import "./custom/variables";
+@import url("./fonts/font.scss");
+@import "./icons/icons.scss";
+@import "./bootstrap/bootstrap.scss";
+
+.accordion {
+  &.accordion-flush {
+    & .accordion-button {
+      @include font-size($font-size-base * 1.555);
+      font-weight: $font-weight-bold;
+    }
+    & .accordion-body {
+      font-size: $font-size-base * 1.111;
+    }
+    & .accordion-item {
+      &:first-child {
+        border-top: 1px solid $accordion-border-color;
+      }
+      &:last-child {
+        border-bottom: 1px solid $accordion-border-color;
+      }
+    }
+  }
+}
+
+h1,
+h2 {
+  font-weight: $font-weight-bold;
+}

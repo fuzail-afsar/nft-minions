@@ -1,0 +1,31 @@
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-weight":
+      map-merge(
+        map-get($utilities, "font-weight"),
+        (
+          values:
+            map-merge(
+              map-get(map-get($utilities, "font-weight"), "values"),
+              (
+                extra-bold: $font-weight-extra-bold,
+              )
+            ),
+        )
+      ),
+    "font-family":
+      map-merge(
+        map-get($utilities, "font-family"),
+        (
+          values:
+            map-merge(
+              map-get(map-get($utilities, "font-family"), "values"),
+              (
+                secondary: $headings-font-family,
+              )
+            ),
+        )
+      ),
+  )
+);

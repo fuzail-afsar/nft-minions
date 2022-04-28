@@ -1,0 +1,57 @@
+$font-family-sans-serif: "Neuzeit Grotesk", system-ui, -apple-system, "Segoe UI",
+  Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$headings-font-family: "Filson Soft";
+
+$font-size-root: 62.5%;
+$font-size-base: 1.8rem;
+
+$h1-font-size: $font-size-base * 6;
+$h2-font-size: $font-size-base * 5;
+$h3-font-size: $font-size-base * 2.222;
+
+// $headings-font-weight: false;
+$headings-margin-bottom: 1rem;
+
+$font-weight-extra-bold: 800;
+
+$primary: #ffdd00;
+$secondary: #103e9a;
+
+$navbar-light-color: #000000;
+$body-color: #000000;
+
+$border-radius: 1.5rem;
+
+$btn-padding-x: 2rem;
+$btn-border-radius: 2rem;
+
+$link-decoration: none;
+
+$accordion-padding-y: 4rem;
+$accordion-button-focus-box-shadow: none;
+$accordion-button-active-bg: inherit;
+$accordion-icon-width: 2rem;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer / 10,
+  2: $spacer / 10 * 2,
+  3: $spacer / 10 * 3,
+  4: $spacer / 10 * 4,
+  5: $spacer / 10 * 5,
+  6: $spacer / 10 * 6,
+  7: $spacer / 10 * 7,
+  8: $spacer / 10 * 8,
+  9: $spacer / 10 * 9,
+  10: $spacer,
+  20: $spacer * 2,
+  30: $spacer * 3,
+  40: $spacer * 4,
+  50: $spacer * 5,
+  60: $spacer * 6,
+  70: $spacer * 7,
+  80: $spacer * 8,
+  90: $spacer * 9,
+);
