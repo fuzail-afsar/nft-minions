@@ -1,3 +1,5 @@
+@use "sass:map";
+
 $font-family-sans-serif: "Neuzeit Grotesk", system-ui, -apple-system, "Segoe UI",
   Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -26,7 +28,13 @@ $border-radius: 1.5rem;
 $btn-padding-x: 2rem;
 $btn-border-radius: 2rem;
 
+$navbar-toggler-border-radius: 0.5;
+// $navbar-light-color: $primary;
+$navbar-toggler-focus-width: 0;
+$navbar-light-toggler-border-color: transparent;
+
 $link-decoration: none;
+$enable-rfs: false;
 
 $accordion-padding-y: 4rem;
 $accordion-button-focus-box-shadow: none;
@@ -55,3 +63,5 @@ $spacers: (
   80: $spacer * 8,
   90: $spacer * 9,
 );
+
+$grid-gutter-width: map.get($spacers, 20);

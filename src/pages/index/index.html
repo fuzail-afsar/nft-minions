@@ -10,12 +10,12 @@
       <section class="bg-secondary py-90">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-8">
+            <div class="col-lg-8 col-12">
               <h1 class="text-primary">
-                <span class="text-white d-block">Welcome To</span>Minions World
+                <span class="text-white">Welcome To </span>Minions World
               </h1>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-12 d-none d-lg-block">
               <img
                 src="<%= require('../../assets/images/banner.png') %>"
                 alt="Minions"
@@ -28,15 +28,15 @@
 
       <section id="about" class="py-90">
         <div class="container">
-          <div class="row align-items-center gx-40">
-            <div class="col-5">
+          <div class="row align-items-center g-30">
+            <div class="col-md-5">
               <img
                 src="<%= require('../../assets/images/about.jpg') %>"
                 alt="about"
                 class="img-fluid rounded"
               />
             </div>
-            <div class="col-7">
+            <div class="col-md-7">
               <h2 class="text-primary">
                 <span class="text-secondary d-block">About</span>Minions
               </h2>
@@ -61,11 +61,11 @@
 
       <section id="rarity" class="py-90 bg-secondary">
         <div class="container">
-          <div class="row align-items-center gx-40">
+          <div class="row align-items-center g-30">
             <div class="col-12 text-center mb-30">
               <h2 class="text-primary">Rarity</h2>
             </div>
-            <div class="col-5">
+            <div class="col-md-5">
               <div class="mb-30">
                 <h3 class="text-white">Types</h3>
                 <ul class="list-contained">
@@ -89,12 +89,12 @@
                 </ul>
               </div>
             </div>
-            <div class="col-7">
+            <div class="col-md-7">
               <div class="row g-30">
                 <div class="col-12">
                   <div class="card px-30 pt-30 pb-10 shadow-lg">
                     <img
-                      src="<%= require('../../assets/images/super-rare4.jpg') %>"
+                      src="<%= require('../../assets/images/super-rare.jpg') %>"
                       alt="Super Rare Minion"
                       class="img-fluid card-img-top rounded"
                     />
@@ -104,7 +104,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6">
                   <div class="card px-30 pt-30 pb-10 shadow-lg">
                     <img
                       src="<%= require('../../assets/images/common2.jpg') %>"
@@ -116,7 +116,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6">
                   <div class="card px-30 pt-30 pb-10 shadow-lg">
                     <img
                       src="<%= require('../../assets/images/rare3.jpg') %>"
@@ -140,9 +140,11 @@
             <div class="col-12 mb-30 text-center">
               <h2 class="text-primary">Roadmap</h2>
             </div>
-            <div class="col-8 d-flex flex-column">
-              <div class="card flex-row align-items-center roadmap-card mb-20">
-                <span class="me-10">10%</span>
+            <div class="col-xl-8 col-lg-9 d-flex flex-column">
+              <div
+                class="card flex-md-row align-items-center roadmap-card mb-20"
+              >
+                <span class="mb-20 mb-md-0 me-md-10">10%</span>
                 <div class="card-body">
                   <h4 class="card-title">Launch Initiated</h4>
                   <p class="card-text">
@@ -154,8 +156,10 @@
                   </p>
                 </div>
               </div>
-              <div class="card flex-row align-items-center roadmap-card mb-20">
-                <span class="me-10">20%</span>
+              <div
+                class="card flex-md-row align-items-center roadmap-card mb-20"
+              >
+                <span class="mb-20 mb-md-0 me-md-10">20%</span>
                 <div class="card-body">
                   <h4 class="card-title">Staking</h4>
                   <p class="card-text">
@@ -167,8 +171,10 @@
                   </p>
                 </div>
               </div>
-              <div class="card flex-row align-items-center roadmap-card mb-20">
-                <span class="me-10">40%</span>
+              <div
+                class="card flex-md-row align-items-center roadmap-card mb-20"
+              >
+                <span class="mb-20 mb-md-0 me-md-10">40%</span>
                 <div class="card-body">
                   <h4 class="card-title">Physical Merch & Live Events</h4>
                   <p class="card-text">
@@ -180,8 +186,10 @@
                   </p>
                 </div>
               </div>
-              <div class="card flex-row align-items-center roadmap-card mb-20">
-                <span class="me-10">60%</span>
+              <div
+                class="card flex-md-row align-items-center roadmap-card mb-20"
+              >
+                <span class="mb-20 mb-md-0 me-md-10">60%</span>
                 <div class="card-body">
                   <h4 class="card-title">The Minions</h4>
                   <p class="card-text">
@@ -193,8 +201,10 @@
                   </p>
                 </div>
               </div>
-              <div class="card flex-row align-items-center roadmap-card mb-20">
-                <span class="me-10">100%</span>
+              <div
+                class="card flex-md-row align-items-center roadmap-card mb-20"
+              >
+                <span class="mb-20 mb-md-0 me-md-10">100%</span>
                 <div class="card-body">
                   <h4 class="card-title">Metaverse</h4>
                   <p class="card-text">
@@ -218,7 +228,7 @@
               <h2 class="text-primary">Team</h2>
             </div>
           </div>
-          <div class="row row-cols-4">
+          <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1 g-20">
             <div class="col">
               <div class="card px-20 pt-20 pb-5 text-center">
                 <img
@@ -281,7 +291,7 @@
             <div class="col-12 mb-50 text-center">
               <h2 class="text-primary">Faq</h2>
             </div>
-            <div class="col-md-7">
+            <div class="col-lg-7">
               <div class="accordion accordion-flush" id="faq-accordion">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="faq-heading-one">
@@ -394,6 +404,7 @@
         </div>
       </section>
     </main>
+
     <%= require('../../partials/footer.html?raw') %>
   </body>
 </html>
